@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d out --nojekyll"
+    "deploy": "gh-pages -d out --nojekyll --cname https://mhwearsolutions.github.io/mhcorp"
   },
   "dependencies": {
     "gh-pages": "^6.2.0",
